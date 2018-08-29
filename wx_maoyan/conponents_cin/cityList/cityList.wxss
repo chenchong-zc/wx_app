@@ -1,0 +1,18 @@
+/* conponents_cin/cityList/cityList.wxss */
+.top{
+  width: 100%;
+  border-bottom: 1px solid 	#D1D1D1;
+}
+.top>view{
+  margin: 20rpx 0;
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  font-size: 30rpx;
+  color: 	#A3A3A3;
+  border-right: 1px solid #EBEBEB; 
+}
+.top image{
+  width: 30rpx;
+  height: 30rpx;
+}

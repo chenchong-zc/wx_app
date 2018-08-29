@@ -1,0 +1,16 @@
+<!--conponents_cin/cityList/cityList.wxml-->
+<slot></slot>
+<view class='top'>
+  <view>
+    <text>全城</text>
+    <image src='../../img/向左实心箭头.png'></image>
+  </view>
+  <view>
+    <text>品牌</text>
+    <image src='../../img/向左实心箭头.png'></image>
+  </view>
+  <view>
+    <text>特色</text>
+    <image src='../../img/向左实心箭头.png'></image>
+  </view>
+</view>

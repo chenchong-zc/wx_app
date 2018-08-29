@@ -1,0 +1,25 @@
+<!--conponents_cin/dropdown/dropdown.wxml-->
+<view class='wrap' wx:for="{{obj}}">
+  <view class='left'>
+    <view>
+      <text>{{item.nm}}</text>
+      <text>{{item.sellPrice}}</text>
+      <text>元起</text>
+    </view>
+    <view>{{item.addr}}</view>
+    <view>
+    <text>{{item.tag.vipTag}}</text>
+    <text>{{item.tag.hallTypeVOList[0].name}}</text>
+    <text>{{item.tag.hallTypeVOList[1].name}}</text>
+    <text>{{item.tag.hallTypeVOList[2].name}}</text>
+    <text>{{item.tag.hallTypeVOList[3].name}}</text>
+    </view>
+    <view>
+      <text>惠</text>
+      <text>{{item.promotion.cardPromotionTag}}</text>
+    </view>
+  </view>
+  <view class='right'>
+    {{item.distance}}
+  </view>
+</view>
